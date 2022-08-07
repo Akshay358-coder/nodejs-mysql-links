@@ -9,14 +9,8 @@
     "compile": "babel src -d dist",
     "clean": "rimraf dist",
     "copyfiles": "ncp ./src/views ./dist/views && ncp ./src/public ./dist/public",
-    "build": "npm run clean && npm run compile && npm run copyfiles"
-  },
-  "scripts": {
-    "server": "http-server -c-1 -p 9999",
-    "start1": "nodemon app.js",
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "sonar": "node sonar-project.js"
+    "build": "npm run clean && npm run compile && npm run copyfiles",
+    "sonar": "node sonar-project.js"
   },
   "repository": {
     "type": "git",
