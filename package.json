@@ -48,7 +48,7 @@
     "@babel/preset-env": "^7.16.7",
     "ncp": "^2.0.0",
     "nodemon": "^2.0.15",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
     "sonarqube-scanner": "^2.7.0"
   }
 }
