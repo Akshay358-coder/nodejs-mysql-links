@@ -29,6 +29,10 @@
   "engines": {
     "node": "v10.6.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akshay358-coder/nodejs-mysql-links.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
